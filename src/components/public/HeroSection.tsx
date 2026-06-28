@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
-const UNSPLASH_HERO = "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1400&q=80&auto=format&fit=crop";
+const UNSPLASH_HERO = "https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
 const words = ["Trust.", "Community.", "Growth.", "Freedom."];
 
@@ -115,7 +115,7 @@ export function HeroSection() {
             ].map(s => (
               <div key={s.label} className="text-center">
                 <p className="font-playfair text-2xl font-bold text-tussock">{s.val}</p>
-                <p className="text-swirl/50 text-xs mt-0.5">{s.label}</p>
+                <p className="text-white text-xs mt-0.5">{s.label}</p>
               </div>
             ))}
           </div>

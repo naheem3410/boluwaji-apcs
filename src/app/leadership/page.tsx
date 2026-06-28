@@ -3,7 +3,7 @@ import { PageHero } from "@/components/public/PageHero";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { UserCircle2, Mail } from "lucide-react";
 
-const IMG = "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=1400&q=80&auto=format&fit=crop";
+const IMG = "https://images.unsplash.com/photo-1638262052640-82e94d64664a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
 const exco = [
   { id:"1", title:"President",             name:"Name Placeholder", initials:"PP", color:"bg-bd" },
