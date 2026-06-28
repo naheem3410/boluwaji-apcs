@@ -95,7 +95,7 @@ export default function HowItWorksPage() {
                 {rules.map(r => (
                   <li key={r} className="flex items-start gap-3">
                     <CheckCircle2 size={18} className="text-tussock mt-0.5 shrink-0"/>
-                    <span className="text-swirl/75 text-sm leading-relaxed">{r}</span>
+                    <span className="text-white text-sm leading-relaxed">{r}</span>
                   </li>
                 ))}
               </ul>
