@@ -50,10 +50,9 @@ export function Navbar() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-10 h-10 rounded-xl grad-hero flex items-center justify-center shadow-brand overflow-hidden group-hover:scale-105 transition-transform duration-300">
-              <span className="naira-motif text-[28px] absolute opacity-15">₦</span>
-              <span className="font-playfair font-bold text-swirl text-lg relative z-10">B</span>
-            </div>
+            <div className="relative w-16 h-16 rounded-full overflow-hidden group-hover:scale-105 transition-transform duration-300">
+  <img src="/logo.png" alt="Boluwaji APCS Logo" className="w-full h-full object-contain rounded-full" />
+</div>
             <div className="hidden sm:block">
               <p className={cn("font-playfair font-bold text-base leading-tight transition-colors",
                 transparent ? "text-white" : "text-heading")}>
