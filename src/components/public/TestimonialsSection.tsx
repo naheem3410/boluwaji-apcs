@@ -2,7 +2,7 @@ import { AnimateIn } from "@/components/ui/AnimateIn";
 
 const testimonials = [
   {
-    name:"Adebisi Adeleke",
+    name:"Azeezat Adeleke",
     role:"Member since 2018",
     initials:"AA",
     quote:"Boluwaji APCS helped me access capital for my business without the burden of interest. The community is genuinely supportive and the process is transparent.",
@@ -17,7 +17,7 @@ const testimonials = [
     featured: true,
   },
   {
-    name:"Seun Oladipo",
+    name:"Seun Shakirat",
     role:"Member since 2020",
     initials:"SO",
     quote:"The interest-free loan helped me handle a family emergency without going to predatory lenders. I will always be grateful for this cooperative.",
